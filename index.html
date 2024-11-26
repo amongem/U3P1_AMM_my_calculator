@@ -15,11 +15,17 @@
         <script type="text/javascript">
             function cube() {
                 var num = document.getElementById("n1");
-                num.value = Math.pow(num.value, 3);
+                // Convertir el valor a número y calcular el cubo
+                var result = Math.pow(Number(num.value), 3);
+                // Asignar el resultado de vuelta al campo de entrada
+                num.value = result;
             }
             function power_4() {
                 var num = document.getElementById("n1");
-                num.value = Math.pow(num.value, 4);
+                // Convertir el valor a número y calcular la potencia 4
+                var result = Math.pow(Number(num.value), 4);
+                // Asignar el resultado de vuelta al campo de entrada
+                num.value = result;
             }
         </script>
     </body>
